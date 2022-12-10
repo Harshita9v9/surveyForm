@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form id="form">
+<table>
+    <tr>
+        <th> <label>Name:</label></th>
+    </tr>
+    <td> <input type="text"  id="name"></td>
+
+    <tr>
+        <th><label>Email:</label></th>
+    </tr>
+    <td> <input type="email"  id="email"></td>
+
+    <tr>
+        <th><label>Age:</label></th>
+    </tr>
+    <td> <input type="text"  id="age"></td>
+
+    <tr>
+        <th> <label>Which option best describes you?</label></th>
+    </tr>
+    <td><select name="role" id="role">
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+        <option value="other">Other</option>
+    </select></td>
+
+    <tr>
+        <th><label>Would you recommend this to your friend?</label></th>
+    </tr>
+    <td>
+        <input type="radio"  id="refer-1" name="refer">Yes </input>
+        <input type="radio"  id="refer-2"  name="refer">No </input>
+        <input type="radio"  id="refer-3"  name="refer">Maybe </input>
+    </td>
+
+    <tr>
+        <th> <label>Languages known:(Check all that apply)</label></th>
+    </tr>
+    <td>
+        <label for="">
+            <input type="checkbox" name="check">C </input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check"> C++</input>  
+        </label>
+        <label for="">
+            <input type="checkbox" name="check" > C#</input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check">Java </input> 
+        </label>
+        <label for="">
+            <input type="checkbox" name="check" >Python </input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check">Javascript </input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check" >React</input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check">Angular </input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check" >Django </input>
+        </label>
+        <label for="">
+            <input type="checkbox" name="check">Spring </input>
+        </label>
+    </td>
+
+    <tr>
+        <th><label>Any Comments or Suggestions: </label></th>
+    </tr>
+    <td>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here">
+        </textarea>
+    </td>
+</table>
+      
+    </form>
+    
+</body>
+</html>
